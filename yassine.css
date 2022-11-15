@@ -1,0 +1,302 @@
+body {
+    background-image: linear-gradient(rgba(122, 164, 157, 0.283), rgb(122, 229, 228)), url("img/zoro.jpg" );
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+:root{
+   
+    --text-color: #000000;
+    --main-color: rgb(122, 229, 228);
+   
+}
+
+
+h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 50px 0 20px;
+    font-variant: small-caps;
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.1;
+    font-variant: small-caps;
+   
+}
+
+.box-about{
+    background: #fff;
+    margin: 50px;
+    border: 5PX solid white;
+    text-indent: 20px;
+    text-align: justify;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #000;
+    margin: 30px;
+}
+
+.box-about img{
+    width: 250px;
+    height: 150PX;
+    margin: 25px;
+    float: left;
+}
+
+.box-about p{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    margin: 80PX;
+
+
+}
+
+    /*project*/
+
+.box-projects-1{
+    background: #fff;
+    margin: 50px;
+    border: 5px solid white;
+    overflow: hidden;   
+}
+
+.box-projects {
+    float: left;
+    width: 28%;
+    margin: 30px;
+    box-sizing: border-box !important;
+}
+
+.box-projects img {
+    width: 100%;
+}
+
+.nameproject{
+    margin-top: 20PX ;
+    font-family: 'lato',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.dateproject{
+    margin: 10px;
+    font-family: 'lato',sans-serif;
+    color: gray;
+    font-size:12px;
+
+}
+
+   /*work*/
+
+
+.box-word{
+    height: 400px;
+    background: #fff;
+    margin: 50px;
+    border: 5PX solid white;
+    overflow: hidden;
+}
+
+.datework{
+    margin: 22px;
+    font-family: 'lato',sans-serif;
+    color: gray;
+    font-size:14px;
+    padding: auto;
+}
+
+.namework{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #000;
+    margin: 20px;
+}
+
+    /*education*/
+.sections-4{
+    height: 280px;
+    background: #fff;
+    margin: 50px;
+    border: 5PX solid white;
+    overflow: hidden;
+
+}
+.sections-4 h4{
+
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.sections-4 h5{
+    margin-left: 15px;
+    padding-bottom: 2px;
+    font-family:'Oswald', sans-serif;
+    font-size: 20px;
+    padding-left: 40px;
+
+}
+
+.sections-4 span{
+    color: #a7afaf;
+    font-size: 20px;
+    margin-left: 15px;
+    padding-left: 40px;
+}
+
+.sections-4  h6{
+    color: #a7afaf;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding-left: 40px;
+}
+
+
+.content-3{
+    float: left;
+    width: 33.33%;
+    width: 300PX;
+    MARGIN-LEFT: 30PX;
+    
+}
+
+   /*language*/
+
+.Language{
+    height: 200px;
+    background: #fff;
+    margin: 50px;
+    border: 5PX solid white;
+    overflow: hidden;
+}
+
+.Language P{
+    margin: 30px;
+    font-family: 'lato',sans-serif;
+    color: rgb(16, 14, 14);
+    font-size:19px;
+    width: 26.33333%;
+    float:left;
+    
+    
+}
+
+  /*social*/
+
+.sections-6{
+    height: 250px;
+    background: #fff;
+    margin: 50px;
+    border: 5PX solid white;
+    overflow: hidden;
+}
+
+.sections-6 h5{
+    margin: 50px;
+    font-family:  'lato',sans-serif;
+    color: rgba(16, 14, 14, 0.436);
+    font-size:20px;
+    width: 24.33333%;
+    float:left;
+    background-color: #fff;
+    border-radius:0.3rem ;
+
+}
+.social-links h5:hover{
+    transform: scale(1.01) translateY(-5px);
+    background: transparent;
+    background-color:  rgba(122, 229, 227, 0.895);
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: px;
+}
+
+ /*contact*/
+.box{
+    
+    background: #fff;
+    margin: 50px;
+    border: 5PX solid white;
+    overflow: hidden;
+    padding-right:  20px ;
+    padding-left: 20px;
+    height: 500px;
+
+}
+
+
+.test input{
+    width: 98%;
+    padding-left: 20px;
+    font-size: 1.1em;
+    line-height: 2em ;
+    outline: none;
+    border: 1px solid #333;
+    background-color: rgb(231,  231 ,231);
+    border: none;
+    border-radius: 0.5rem;
+
+}
+
+#eee{
+    padding: 15PX;
+    background-color: rgb(231,  231 ,231);
+    font-size: 1.1em;
+    border: none;
+    width: 1067px;
+    height: 165px;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+
+/*btn*/
+
+.btn{
+    
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    font-weight: 500;
+    background: var(--main-color);
+    color: var(--text-color);
+    border: 1px solid var(--main-color);
+    transition: all .40s ease;
+
+}
+.btn:hover{
+    transform: scale(1.01) translateY(-5px);
+    background: transparent;
+    background-color: rgba(76, 76, 76, 0.479);
+    border: 1px solid var(--main-color);
+}
+HEADER
+NAV
+MAIN
+ARTICLE
+SECTION
+ASIDE
+HN
+FOOTER
